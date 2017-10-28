@@ -3290,7 +3290,7 @@
 		#header nav {
 			position: absolute;
 			right: 1em;
-			top: 0;
+			top: 10px;
 		}
 
 			#header nav ul {
