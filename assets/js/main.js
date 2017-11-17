@@ -14,6 +14,15 @@
 		xsmall: '(max-width: 480px)'
 	});
 
+	$(document).ready(function () {
+		if (navigator.userAgent.toLowerCase().indexOf("android") > -1) {
+			window.location.href = 'https://play.google.com/store/apps/details?id=technology.fullstack.vip';
+		}
+		if (navigator.userAgent.toLowerCase().indexOf("iphone") > -1) {
+			window.location.href = 'https://itunes.apple.com/us/app/vibes-app/id1281593893?mt=8';
+		}
+	});
+
 	$(function() {
 
 		var	$window = $(window),
